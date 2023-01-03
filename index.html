@@ -21,18 +21,7 @@
             </div>
 
             <div class="others" id = "current-weather-items">
-                <div class="weather-items">
-                    <div>Humidity</div>
-                    <div>95.2%</div>
-                </div>
-                <div class="weather-items">
-                    <div>Pressure</div>
-                    <div>121</div>
-                </div>
-                <div class="weather-items">
-                    <div>Wind Speed</div>
-                    <div>222</div>
-                </div>
+   
             </div>
         </div>
 
@@ -53,7 +42,7 @@
 
     <!-- future forecast i.e for weekdays -->
     
-    <div class="future-forecast">
+    <!-- <div class="future-forecast">
         <div class="today" id="temp">
             <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
             <div class="other-properties">
@@ -62,10 +51,10 @@
                 <div class="curr-temp">Day -35.56&#176; C</div>
             </div>
            
-        </div>
+        </div> -->
     
         <!-- for other days of the week -->
-    
+<!--     
         <div class="weather-forecast" id="weather-forecast">
             <div class="weather-forecast-item">
                 <div class="current-day">Tuesday</div>
@@ -107,17 +96,31 @@
                 <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="w-icon">
                 <div class="curr-temp">Night - 25.6&#176; C</div>
                 <div class="curr-temp">Day - 35.6&#176; C</div>
+            </div> -->
+        <!-- </div> -->
+       
+        <div class="future-forecast">
+            <div class="xyz">
+                <input type="text" class="inputValue" placeholder="Enter a city">
+                <input type="submit" value="Submit" class="button">
+            </div>
+            <div class="display">
+                <h1 class="name"></h1>
+                <h3 class="des"></h3>
+                <p class="temp"> C</p>
+                <p class="feels"></p>
+
             </div>
         </div>
+        
     
     
     </div>
-    
-    
 
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"
+    integrity="sha512-Dz4zO7p6MrF+VcOD6PUbA08hK1rv0hDv/wGuxSUjImaUYxRyK2gLC6eQWVqyDN9IM1X/kUA8zkykJS/gEVOd3w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src = "script.js"></script>
+   
 </body>
 </html>
