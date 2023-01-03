@@ -15,8 +15,6 @@ var des = document.querySelector('.des')
 var temp = document.querySelector('.temp')
 var feels = document.querySelector('.feels');
 
-// fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=1e1eddc220296ddd7e81dcda1035ba6f')
-// .then(res => res.json()).then(data => console.log(data))
 
 
 // setting the date and time 
